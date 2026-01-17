@@ -1,0 +1,28 @@
+{
+    "proxy": {
+        "description": "代理服务器地址 (例如: http://127.0.0.1:7890)",
+        "type": "string",
+        "default": "",
+        "hint": "留空则不使用代理，支持 HTTP/HTTPS/SOCKS5 代理"
+    },
+    "mosaic_level": {
+        "description": "图片打码程度",
+        "type": "int",
+        "default": 2,
+        "options": [0, 1, 2, 3],
+        "labels": ["不打码", "轻度模糊", "中度模糊", "重度模糊+马赛克"],
+        "hint": "0=不打码, 1=轻度模糊, 2=中度模糊, 3=重度模糊+马赛克"
+    },
+    "max_cache_files": {
+        "description": "最大缓存文件数量",
+        "type": "int",
+        "default": 100,
+        "hint": "超过此数量会自动清理旧缓存"
+    },
+    "request_timeout": {
+        "description": "请求超时时间(秒)",
+        "type": "int",
+        "default": 30,
+        "hint": "网络请求的最大等待时间"
+    }
+}

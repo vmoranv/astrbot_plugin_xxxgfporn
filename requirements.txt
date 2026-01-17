@@ -1,0 +1,11 @@
+# XXXGFPORN AstrBot Plugin Dependencies
+
+# HTTP async client
+aiohttp>=3.8.0
+
+# HTML parsing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Image processing
+Pillow>=10.0.0
